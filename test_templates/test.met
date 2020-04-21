@@ -1,0 +1,4 @@
+file -force -new;
+polySphere;
+file -rename "D:/{file_name}.ma";
+file -force -type "mayaAscii" -save;
